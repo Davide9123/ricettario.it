@@ -16,11 +16,11 @@ return new class extends Migration
         Schema::create('recipes', function (Blueprint $table) {
             
             $table->id(); //Primary Key
-            $table->foreignId('user_id')->nullable()->constrained()->onDelete('SET NULL');
             $table->string('title');// Foreign Key
             $table->string('description')->nullable();
             $table->string('ingrediants');
             $table->boolean('published')->default(false);
+            $table->foreignId('user_id')->nullable()->constrained()->onDelete('SET NULL');
             $table->timestamps();
 
         });
