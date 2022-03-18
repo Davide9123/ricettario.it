@@ -1,16 +1,5 @@
-<footer class="site-footer fixed-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h6 class="text-center">About</h6>
-                <p class="text-justify text-center">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the
-                    upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or
-                    snippets as the code wants to be simple. We will help programmers build up concepts in different
-                    programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL
-                    and Algorithm.</p>
-            </div>
-        </div>
-    </div>
+<footer class="site-footer fixed-bottom p-2 relative no-overflow">
+    
     <hr>
     </div>
     <div class="container">

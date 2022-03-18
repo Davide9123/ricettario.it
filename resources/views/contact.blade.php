@@ -1,7 +1,7 @@
 <x-layout>
     <div class="container d-flex justify-content-center align-items-center mt-3">
         <div class="row mt-5">
-            <h1 class="mt-5 text-center">Contattaci</h1>
+            <h1 class="mt-5 text-center fw-bold">Contattaci</h1>
             <div class="col">
                 <form method="POST" action="{{route('contact.submit')}}">
                     @csrf
@@ -16,7 +16,7 @@
                     <label for="textarea">Inserisci il tuo messaggio</label>
                     <textarea class="form-control" name="message" id="" cols="30" rows="10"></textarea>
                     <p class="text-center mt-4">
-                        <button type="submit" class="btn btn-dark rounded-pill">Submit</button>
+                        <button type="submit" class="btn btn-dark rounded-pill fs-4">Invia</button>
                     </p>
                 </form>
             </div>

@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\RecipeController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,4 +26,7 @@ Route::post('/contact/submit',[HomeController::class, 'contactSubmit'])->name('c
 Route::get('/recipe',[RecipeController::class, 'recipes'])->name('recipe_index');
 Route::get('/recipe/form',[RecipeController::class,'recipe_form'])->name('recipe_form');
 Route::post('/recipe/submit',[RecipeController::class, 'recipe_submit'])->name('recipe_submit');
+Route::get('/recipe/details/{recipe}',[RecipeController::class,'recipe_details'])->name('recipe_details');
 
+//! Rotta per la vista utente
+Route::get('/profile',[UserController::class, 'userProfile'])->name('profile');

@@ -8,7 +8,7 @@
                     </div>
                 @endif
                 <div class="col-12">
-                    <h1 class="fw-bold fs-1 text-center">Ricettario.it</h1>
+                    <h1 class="fw-bold fs-1 text-center"><i class="fas fa-utensils"></i> Ricettario.it</h1>
                     <p class="fs-4 text-center">Idee semplici per cucinare piatti fantastici</p>
                 </div>
             </div>

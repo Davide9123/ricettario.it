@@ -9,9 +9,13 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class Recipe extends Model
 {
     use HasFactory;
-    
+    protected $fillable = [
+        'title',
+        'description',
+        'ingrediants',
+    ];
     protected $table = 'recipes';
-    
+
     public function user()
     {
         return $this->belongsTo(User::class);
